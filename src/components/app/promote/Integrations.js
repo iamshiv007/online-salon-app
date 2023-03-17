@@ -99,7 +99,7 @@ const Integrations = () => {
           <p className="text-b2">
             Integrate Google Analytics and Facebook Ads onto your Outlet Control
             account.
-            <a style={{ color: "#6B87E8", textDecoration: "none" }} href="#">
+            <a style={{ color: "#6B87E8", textDecoration: "none" }} href="/">
               Learn more
             </a>
           </p>
