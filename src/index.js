@@ -20,6 +20,8 @@ import StepOne from './components/app/promote/StepOne';
 import StepTwo from './components/app/promote/StepTwo';
 import StepThree from './components/app/promote/StepThree';
 import StepFour from './components/app/promote/StepFour';
+import Calendar from './components/app/Appointment/Calendar';
+import NewAppointment from './components/app/Appointment/NewAppointment';
 
 
 const router = createBrowserRouter([
@@ -38,6 +40,10 @@ const router = createBrowserRouter([
       {
         path:'promote/integrations',
         element:<Integrations/>
+      },
+      {
+        path:'',
+        element:<Calendar/>
       }
     ]
   },
@@ -57,6 +63,10 @@ const router = createBrowserRouter([
     path:'/promote/stepfour',
     element:<StepFour/>
   },
+  {
+    path:'/newAppointment',
+    element:<NewAppointment/>
+  }
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
