@@ -2,9 +2,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1> Content Changed</h1>
-    </div>
+      <div className='text-danger'>Content Changed</div>
   );
 }
 
