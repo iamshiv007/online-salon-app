@@ -1,28 +1,39 @@
 import React from 'react'
 import { NavLink, Outlet } from 'react-router-dom'
 import { Settings, Calendar, Mic, BookOpen } from 'react-feather'
+import AppLogo from '../assets/images/images-shiv/AppLogo.svg'
+import OutletControl from '../assets/images/images-shiv/OUTLETCONTROL.svg'
 
 export const SideBar = () => {
   return (
     <>
+
+          {/* Top Bar */}
+          <div className='my-salon-topbar'>
+           <img style={{width:'70px'}} src={AppLogo} alt="" />
+           <img style={{width:'180px'}} src={OutletControl} alt="" />
+          </div>
+
         <div className='d-flex'>
              {/* Sidebar */}
-       <div className='my-salon-sidebar'>
+       <div className='my-salon-navbar'>
+
         <div>
-        <NavLink to='/calender'><div className='my-salon-link'><span><Calendar/>&nbsp;</span> Calender</div></NavLink>
+        <NavLink to='/calendar'><div className="salon-nav-link"><Calendar size={30}/><div className='my-salon-nav-text'>Calendar</div></div></NavLink>
         </div>
-        <div>
-        <NavLink to='/promote'><div className='my-salon-link'><span><Mic/>&nbsp;</span>Promote</div></NavLink>
+          <div>
+        <NavLink to='/promote'><div className="salon-nav-link"><Mic size={30}/><div className='my-salon-nav-text'>Promote</div></div></NavLink>
         </div>
-        <div>
-        <NavLink to='/report'><div className='my-salon-link'><span><BookOpen/>&nbsp;</span>Report</div></NavLink>
+          <div>
+        <NavLink to='/report'><div className="salon-nav-link"><BookOpen size={30}/><div className='my-salon-nav-text'>Reports</div></div></NavLink>
         </div>
-        <div>
-        <NavLink to='/team'><div className='my-salon-link'><span><Settings/>&nbsp;</span>Team Setting</div></NavLink>
-        </div>
+          <div>
+        <NavLink to='team-settings'><div className="salon-nav-link"><Settings size={30}/><div className='my-salon-nav-text'>Settings</div></div></NavLink>
         </div>
 
-        <div id="detail">
+       </div>
+
+        <div>
         <Outlet />
       </div>
 
