@@ -6,6 +6,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { SideBar } from './components/navigation/SideBar';
+import Deals from './components/app/promote/Deals';
 
 
 const router = createBrowserRouter([
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       {
         path:'app',
         element:<App/>
+      },
+      {
+        path:'deal',
+        element:<Deals/>
       }
     ]
   }
