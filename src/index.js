@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { SideBar } from './components/navigation/SideBar';
 import Deals from './components/app/promote/Deals';
+import Integrations from './components/app/promote/Integrations';
 
 
 const router = createBrowserRouter([
@@ -19,8 +20,12 @@ const router = createBrowserRouter([
         element:<App/>
       },
       {
-        path:'deal',
+        path:'promote/deals',
         element:<Deals/>
+      },
+      {
+        path:'promote/integrations',
+        element:<Integrations/>
       }
     ]
   }

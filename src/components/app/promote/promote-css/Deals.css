@@ -227,6 +227,7 @@ body{
     @media (max-width:900px){
       .my-deals-container{
         flex-wrap: wrap;
+        padding:10px;
       }
       .text-b1{
         width:95%;
