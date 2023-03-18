@@ -54,7 +54,7 @@
     position: fixed;
     top:2%;
     left:30%;
-    z-index: 1;
+    z-index: 100;
     height:fit-content;
   }
   .my-alert-comp div{

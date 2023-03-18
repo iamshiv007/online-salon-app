@@ -22,6 +22,11 @@ import StepThree from './components/app/promote/StepThree';
 import StepFour from './components/app/promote/StepFour';
 import Calendar from './components/app/Appointment/Calendar';
 import NewAppointment from './components/app/Appointment/NewAppointment';
+import AddTeamMemberForm from './components/app/Team/AddTeamMemberForm';
+import TeamMembers from './components/app/Team/TeamMember';
+import AddTeamMember from './components/app/Team/AddTeamMember';
+import BusinessSettings from './components/app/Team/BusinessSettings';
+import AddViaEmail from './components/app/Team/AddViaEmail';
 
 
 const router = createBrowserRouter([
@@ -44,6 +49,14 @@ const router = createBrowserRouter([
       {
         path:'',
         element:<Calendar/>
+      },
+      {
+        path:'businessSettings',
+        element:<BusinessSettings/>
+      },
+      {
+        path:'teamMembers',
+        element:<TeamMembers/>
       }
     ]
   },
@@ -66,6 +79,18 @@ const router = createBrowserRouter([
   {
     path:'/newAppointment',
     element:<NewAppointment/>
+  },
+  {
+    path:'/addTeamMemberForm',
+    element:<AddTeamMemberForm/>
+  },
+  {
+    path:'/addTeamMember',
+    element:<AddTeamMember/>
+  },
+  {
+    path:'/addViaEmail',
+    element:<AddViaEmail/>
   }
 ])
 

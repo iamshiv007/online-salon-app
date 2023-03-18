@@ -19,7 +19,7 @@ export const SideBar = () => {
        <div className='my-salon-navbar'>
 
         <div>
-        <NavLink to='/calendar'><div className="salon-nav-link"><Calendar size={30}/><div className='my-salon-nav-text'>Calendar</div></div></NavLink>
+        <NavLink to='/'><div className="salon-nav-link"><Calendar size={30}/><div className='my-salon-nav-text'>Calendar</div></div></NavLink>
         </div>
           <div>
         <NavLink to='/promote/deals'><div className="salon-nav-link"><Mic size={30}/><div className='my-salon-nav-text'>Promote</div></div></NavLink>
@@ -28,7 +28,7 @@ export const SideBar = () => {
         <NavLink to='/report'><div className="salon-nav-link"><BookOpen size={30}/><div className='my-salon-nav-text'>Reports</div></div></NavLink>
         </div>
           <div>
-        <NavLink to='team-settings'><div className="salon-nav-link"><Settings size={30}/><div className='my-salon-nav-text'>Settings</div></div></NavLink>
+        <NavLink to='/teamMembers'><div className="salon-nav-link"><Settings size={30}/><div className='my-salon-nav-text'>Team</div></div></NavLink>
         </div>
 
        </div>

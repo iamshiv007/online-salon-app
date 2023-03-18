@@ -123,7 +123,7 @@ const notesFun = (e) => {
            setVisible2(false)
          }, 3000)
     } else {
-    const finalData = {date:picker, start_time:startTime, services:service, duration:myduration, team_member:teamMember, appointment_note:notes}
+    // const finalData = {date:picker, start_time:startTime, services:service, duration:myduration, team_member:teamMember, appointment_note:notes}
     // Store data to backend with the help of axios
       setVisible3(true)
       setTimeout(() => {
