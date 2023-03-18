@@ -36,7 +36,7 @@ export const SideBar = () => {
         <NavLink to='/promote/deals'><div className="salon-nav-link"><Mic size={30}/><div className='my-salon-nav-text'>Promote</div></div></NavLink>
         </div>
           <div>
-        <NavLink to='/report'><div className="salon-nav-link"><BookOpen size={30}/><div className='my-salon-nav-text'>Reports</div></div></NavLink>
+        <NavLink to='san-reports/dashboard'><div className="salon-nav-link"><BookOpen size={30}/><div className='my-salon-nav-text'>Reports</div></div></NavLink>
         </div>
           <div>
         <NavLink to='/teamMembers'><div className="salon-nav-link"><Settings size={30}/><div className='my-salon-nav-text'>Team</div></div></NavLink>
@@ -45,22 +45,22 @@ export const SideBar = () => {
        </div>
 
        {/* Offcanvas */}
-       <Offcanvas style={{width:'fit-content'}} direction='end' isOpen={canvasOpen} toggle={toggleCanvasEnd}>
+       <Offcanvas style={{width:'70%'}} direction='end' isOpen={canvasOpen} toggle={toggleCanvasEnd}>
         <OffcanvasBody className='p-0'
         >       
          <div className='my-salon-navbar-off-canvas'>
 
          <div>
-        <NavLink to='/'><div className="salon-nav-link"><Calendar size={30}/><div className='my-salon-nav-text'>Calendar</div></div></NavLink>
+        <NavLink  onClick={toggleCanvasEnd}  to='/'><div className="salon-nav-link"><Calendar size={30}/><div className='my-salon-nav-text'>Calendar</div></div></NavLink>
         </div>
           <div>
-        <NavLink to='/promote/deals'><div className="salon-nav-link"><Mic size={30}/><div className='my-salon-nav-text'>Promote</div></div></NavLink>
+        <NavLink  onClick={toggleCanvasEnd}  to='/promote/deals'><div className="salon-nav-link"><Mic size={30}/><div className='my-salon-nav-text'>Promote</div></div></NavLink>
         </div>
           <div>
-        <NavLink to='/report'><div className="salon-nav-link"><BookOpen size={30}/><div className='my-salon-nav-text'>Reports</div></div></NavLink>
+        <NavLink  onClick={toggleCanvasEnd}  to='/san-reports/dashboard'><div className="salon-nav-link"><BookOpen size={30}/><div className='my-salon-nav-text'>Reports</div></div></NavLink>
         </div>
           <div>
-        <NavLink to='/teamMembers'><div className="salon-nav-link"><Settings size={30}/><div className='my-salon-nav-text'>Team</div></div></NavLink>
+        <NavLink  onClick={toggleCanvasEnd}  to='/teamMembers'><div className="salon-nav-link"><Settings size={30}/><div className='my-salon-nav-text'>Team</div></div></NavLink>
         </div>
 
       </div>

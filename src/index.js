@@ -27,6 +27,8 @@ import TeamMembers from './components/app/Team/TeamMember';
 import AddTeamMember from './components/app/Team/AddTeamMember';
 import BusinessSettings from './components/app/Team/BusinessSettings';
 import AddViaEmail from './components/app/Team/AddViaEmail';
+import Reports from './components/app/Report/Reports';
+import Dashboard from './components/app/Report/Dashboard';
 
 
 const router = createBrowserRouter([
@@ -57,6 +59,14 @@ const router = createBrowserRouter([
       {
         path:'teamMembers',
         element:<TeamMembers/>
+      },
+      {
+        path:'san-reports/dashboard',
+        element:<Dashboard/>
+      },
+      {
+        path:'san-reports/reports',
+        element:<Reports/>
       }
     ]
   },

@@ -26,7 +26,8 @@ const TimeGraph = () => {
         initialView="timeGridDay"
         customButtons={{
           myCustomButton: {
-            text: 'Add New Appointment',
+            text: 'Add +',
+            className:"my-calendar-btn",
             click: function() {
               myFunOne()
             },
