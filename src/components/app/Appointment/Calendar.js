@@ -24,9 +24,17 @@ const TimeGraph = () => {
       <FullCalendar
         plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]}
         initialView="timeGridDay"
+        customButtons={{
+          myCustomButton: {
+            text: 'Add New Appointment',
+            click: function() {
+              myFunOne()
+            },
+          },
+        }}
         headerToolbar={{
           center: 'today prev,next',
-          end: 'dayGridMonth,timeGridWeek,timeGridDay'
+          end: 'dayGridMonth,timeGridWeek,timeGridDay myCustomButton'
         }}
         // events={events}
         eventColor='#A5DFF8'
