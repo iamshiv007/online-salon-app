@@ -1,18 +1,26 @@
-# Getting Started with Create React App
+# Online salon app
+This is a real world project frontend work with form submition logic in this project you can learn how form submitted in real industry projects
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
+# start project
+simply colne project \
+run npm i \
+run npm start \
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.\
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+# Live
+[Online-salon-app](https://online-salon-app.vercel.app/)
+
+# Deployment
+
+1. create new repository 
+2. push you code
+3. Sign up to vercel with github
+4. select your project and fill all detail (for more detail you can see docs and tutorial on internet)
+5. click on deploy 
+your project is live now
+
 
 ### `npm test`
 
@@ -60,11 +68,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 ### Advanced Configuration
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
