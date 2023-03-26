@@ -1,25 +1,78 @@
 # Online salon app
-This is a real world project frontend work with form submition logic in this project you can learn how form submitted in real industry projects
+Online salon app is a my internship project frontend work it's a startup project where customer can book appointment online by this application.
+This is a real world project frontend work with form submition logic in this project you can learn how form submitted in real industry projects.
+i was used reactstrap, bootstrap and custom css for application ui desing.
 
-# start project
-simply colne project \
-run npm i \
-run npm start \
+## Live Demo (Vercel)
+[Online-salon-app](https://online-salon-app.vercel.app/)
+
+# Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+Prerequisites
+Before you start, make sure you have the following software installed on your computer:
+
+Node.js \
+npm (Node Package Manager)
+
+## 🛠 Skills
+HTML, CSS, Javascript, React.JS
+
+## How to use this Repository?
+
+1. Clone the repository to your local machine
+2. Navigate to the project directory
+
+```bash
+  cd online-salon-app
+```
+3. Install the necessary dependencies
+```bash
+  npm install
+```
+
+4. Start the development server
+```bash
+  npm start
+```
+
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.\
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-# Live
-[Online-salon-app](https://online-salon-app.vercel.app/)
+## Built With:
+
+- React - A JavaScript library for building user interfaces
+- HTML - Standard markup language for creating web pages
+- CSS - Style sheet language used for describing the look and formatting of a document written in HTML
+
+## Features
+
+- Responsive.
+- Beautiful UI.
+- Form validation.
+- Form Data Collect.
+
+## Tech Stack
+
+**Client:** React, bootstrap, reactstrap
+
+## 🚀 About Me
+Full - Stack Web Developer Specializations:
+- Logic building
+- Front-End Web Development
+
+## Feedback
+
+If you have any feedback, please reach out to me at iamshiv20032003@gmail.com
+
 
 # Deployment
-
-1. create new repository 
-2. push you code
-3. Sign up to vercel with github
-4. select your project and fill all detail (for more detail you can see docs and tutorial on internet)
-5. click on deploy 
-your project is live now
+1. Sign up to vercel with github
+2. Select your project
+3. Fill all detail (for more detail you can see docs and tutorial on internet)
+3. Click on deploy
+5. Your project is live now
 
 
 ### `npm test`
